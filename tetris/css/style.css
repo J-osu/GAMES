@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body{
+  width: 100vh;
+  height: 100vh;
+}
+
+.contenerdor-principal{
+  border: 2px solid red;
+  width: inherit;
+  height: inherit;
+  background-color: #888;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-secundario{
+  border: 2px solid red;
+  width: 90%;
+  height: 90%;
+  max-width: 800px;
+  background-color: inherit;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+canvas {
+  width: 300px;
+  height:600px;
+  border: 2px solid black;
+  display: block; /* Asegura que no tenga problemas con `inline` */
+}
